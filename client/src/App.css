@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+
+#main-heading{
+  position: relative;
+  top: 2rem;
+  font-size: 3.8rem;
+  /* font-weight:10; */
+  color: #fcc066;
+  text-shadow: rgb(91, 33, 33) 2px 2px;
+}
+
+#line{
+  color: #fcc066;
+  position: relative;
+  height: 2.5px;
+  background-color: #fcc066;
+  top: 1rem;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  border: 2px solid #c1acf7;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+.TodoForm {
+  width: 100%;
+  align-items: center;
+
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: -10px;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+.task-title{
+  text-align: left;
+  font-size:30px;
+  color: #aac8df;
+  text-shadow: #1a12129b 3px 2px;
+}
+.todo-btn { 
+  background: #440eccc1;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.todo-edit-btn{
+  background-color: #34b56c;
+  border-radius: 10px;
+}
+.btn-edit {
+  background-color: #039f47;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 2px 4px 0px 4px;
+}
+.btn-delete{
+  background-color: #a03131;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 2px 4px 0px 4px;
+}
+
+.todo-edit-input{
+  border:1px solid rgb(24, 206, 206);
+  width: 400px;
+}
+
+.tabs{
+  background-color: #a72222;
+  color: #cedce6;
+  margin: 8px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tabs:active,
+.tabs:focus{
+  background-color: #7d0e0e;
+
+}
+
+.duedate{
+  font-size: small;
+  text-align: left;
+  color: #00070b;
+  font-weight: bold;
+  text-shadow: rgba(120, 54, 54, 0.312) 0.1px 0.1px;
+}
+.todo-description{
+  text-align: left;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #6b579f;
+  text-decoration: line-through;
+}
+ 
