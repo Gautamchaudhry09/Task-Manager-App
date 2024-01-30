@@ -33,4 +33,11 @@
 4. Press "Completed Tasks" to view the tasks which hae been marked as complete.
 5. Quickly find tasks based on their completion status.
 
+   Here is a video Demonstration of the working of the application:
+   
+
+
+https://github.com/Gautamchaudhry09/Task-Manager-App/assets/100997330/4b875dad-687c-422f-8330-c59f4ab9020b
+
+
 Enjoy organizing your tasks with this simple and efficient Task Manager web app!
