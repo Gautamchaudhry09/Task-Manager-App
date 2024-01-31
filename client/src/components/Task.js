@@ -5,14 +5,14 @@ import axios from 'axios'
 
 export const Task = ({task,index}) => {
     const toggleComplete = (id) => {
-        axios.put(`http://localhost:8000/tasks/toggleComplete/${id}`)
+        axios.put(`https://task-manager-backend-hlgh.onrender.com/tasks/toggleComplete/${id}`)
             .catch(error => {
                 console.log('Error updating task(togglecomplete)',error);
             });
     }
 
     const deleteTask = (id) => {
-         axios.delete(`http://localhost:8000/tasks/${id}`)
+         axios.delete(`https://task-manager-backend-hlgh.onrender.com/tasks/${id}`)
         .then(response => {
             // setTasks(response.data);
         })
@@ -23,7 +23,7 @@ export const Task = ({task,index}) => {
 
 
     const editTask = (task,id) => {
-            axios.put(`http://localhost:8000/tasks/${id}`,task)
+            axios.put(`https://task-manager-backend-hlgh.onrender.com/tasks/${id}`,task)
             .catch(error => {
                 console.log('Error updating task',error);
             });

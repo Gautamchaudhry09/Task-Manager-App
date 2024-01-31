@@ -7,7 +7,7 @@ export const Todo = ({task,toggleComplete,deleteTask,editTask}) => {
           <h2 className='task-title'>{task.title}</h2>
           <p className='todo-description'> {task.description}</p>
         {task.dueDate ? (
-          <p className='duedate'>dueDate: {task.dueDate.date}/{task.dueDate.month}/{task.dueDate.year}</p>
+          <p className='duedate'>dueDate: {task.dueDate}</p>
           ) : ( <p className='duedate'>no Due Date</p>) }
         </div>
         <div>

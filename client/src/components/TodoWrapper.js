@@ -12,13 +12,14 @@ export const TodoWrapper = () => {
     const [status,setStatus] = useState("");
 
     useEffect(()=>{
-        axios.get('http://localhost:8000/tasks')
+        axios.get('https://task-manager-backend-hlgh.onrender.com/tasks')
         .then(response => {
             setTasks(response.data);
         })
         .catch(error => {
             console.log('Error adding task',error);
         });
+        console.log(tasks);
     })
 
     const handleAll = () => {
