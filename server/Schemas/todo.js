@@ -14,12 +14,8 @@ const todoSchema = new mongoose.Schema({
         default: false
     },
     dueDate:{
-        type:{
-            date:String,
-            month:String,
-            year:String
-        },
-        default:null
+        type:String,
+        default:"no Due Date"
     }
 })
 export const Todo = new mongoose.model('Todo',todoSchema);
