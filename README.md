@@ -40,8 +40,10 @@ https://task-manager-list.netlify.app/
    Here is a video Demonstration of the working of the application:
    
 
+![Description of the GIF](
+https://github.com/Gautamchaudhry09/Task-Manager-App/blob/main/client/public/task%20manager%20Demo%20gif.gif?raw=true
 
-https://github.com/Gautamchaudhry09/Task-Manager-App/assets/100997330/4b875dad-687c-422f-8330-c59f4ab9020b
+)
 
 
 ThankYou for your valuable Time!
